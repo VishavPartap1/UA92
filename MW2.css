@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  nav{
+    position: fixed;
+  }
+  
+  .jumbotron {
+    background-image: url("./images/caste.jpg");
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px #333;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-body {
+    background-color: white;
+    box-shadow: 2px 2px #ccc;
+  }
+  
+  .btn-primary {
+    background-color: #333;
+    border-color: #333;
+  }
+  
+  .btn-primary:hover {
+    background-color: #fff;
+    color: #333;
+    border-color: #333;
+  }
+  
+  footer {
+    margin-top: 50px;
+    vertical-align: bottom;
+  }
+
+  
+  
+
+
+
+  #genreCarousel {
+    max-width: 85%;
+    margin: 50px auto;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  .card img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 10px;
+    text-align:justify;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 15px rgb(234, 255, 0);
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    font-size: 3em;
+    top: 45%;
+    color: aqua;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    color: black;
+    cursor: pointer;
+  }
+
+  
+
+
+
+
+
+  
